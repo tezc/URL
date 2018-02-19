@@ -5,7 +5,7 @@ import java.util.Map;
 /**
  * Generic URLParser implementation based on RFC 3986
  *
- *    The following are two example URIs and their component parts:
+ *    The following is a example URIs and their component parts:
 
  * foo://user:password@example.com:8042/over/there?name=ferret#nose
  * \_/   \____________________________/\_________/ \_________/ \__/
@@ -496,7 +496,7 @@ public class URL
          *
          * ------------------------------
          *
-         * Here I omit this check and reference uri resolution as
+         * Here I omit this check and reference uri resolution
          *
          */
 
