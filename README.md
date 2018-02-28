@@ -2,9 +2,9 @@
 URL parser for java without temporary string objects.
 
 This is useful when you are required to parse lots of URL and decrease pressure on GC.
-Parsed parts are presented as CharSequence's.
+Parsed parts are presented as CharSequences.
 
-
+```java
         URL url = new URL("http://domain.com/some-path?user=jane&user=john#frag");
         
         CharSequence scheme = url.getScheme();
@@ -18,3 +18,4 @@ Parsed parts are presented as CharSequence's.
             System.out.println("user : " + values.value);
             values = values.next;
         }
+```
